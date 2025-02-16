@@ -30,10 +30,11 @@ button.addEventListener("click",function(){
 	let a=document.createElement("button")
 	a.innerHTML="X";
 	a.style.background="red";
+	a.classList.add("delete");
 	col4.append(a);
 
 	a.addEventListener("click",function(){
-		newRow.remove();
+		newRow.delete();
 	});
 
 	form.reset();
