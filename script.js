@@ -34,7 +34,7 @@ button.addEventListener("click",function(){
 	col4.append(a);
 
 	a.addEventListener("click",function(){
-		newRow.delete();
+		newRow.remove();
 	});
 
 	form.reset();
